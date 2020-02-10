@@ -18,6 +18,7 @@ Original training data included which of 9 oncogenic classes data an observation
 
 #### **Models and Results**
 
+- Created a baseline model using Random Forest with no hyperparemeter tuning. This resulted in 57.3% accuracy metric for classifying the data. 
 
 - Created and validated Random Forest, Bernoulli and Multinomial Naïve Bayes, Support Vector Machines, and other models. Random forest ended up being my best model, accurately predicting just under 70% of the unseen test data into their correct classes. There were 9 total classes.   
 
